@@ -49,8 +49,8 @@
 
 -(BOOL)_allowsCapabilityTodayViewWithExplanation:(id*)arg1 {
 
-	NSLog(@"ULSPOTLIGT 2:%d", %orig());
-    return 0;
+	//NSLog(@"ULSPOTLIGT 2:%d", %orig());
+	return 0;
 }
 
 %end
@@ -60,20 +60,20 @@
 
 -(unsigned long long)_leadingCustomPageCount{
 
-	NSLog(@"ULSPOTLIGT 3:%llu", %orig());
+	//NSLog(@"ULSPOTLIGT 3:%llu", %orig());
 	return 0;
 }
 
 -(void)_layoutSubviewsForTodayViewWithMetrics:(id*)arg1{
 
-	NSLog(@"ULSPOTLIGT 4");
+	//NSLog(@"ULSPOTLIGT 4");
 	[self todayView].hidden = 1;
-    %orig;
+	%orig;
 }
 
 -(BOOL)isTodayViewPageHidden{
 	
-	NSLog(@"ULSPOTLIGT 5:%d", %orig());
+	//NSLog(@"ULSPOTLIGT 5:%d", %orig());
 	return 1; 
 }
 

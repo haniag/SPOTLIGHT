@@ -6,4 +6,4 @@ Customize your iOS experience by disabling Spotlight and
 
 Compatible with iOS13.
 
-Type make to buid.
+Type make to build.
